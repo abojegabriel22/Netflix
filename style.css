@@ -1,0 +1,475 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+:root{
+    --bg-color: #000;
+    --text-color: #fff;
+    --red-color: #E50914;
+    --gray-color: #302f2f;
+    --blue-color: #0071eb;
+
+}
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    /* height: 100px; */
+    display: inline-block;
+    background: transparent;
+
+}
+.imge{
+    height: 60%;
+    width: 15%;
+    /* border: 2px solid blue; */
+    margin-top: 2%;
+    margin-left: 10%;
+    float: left;
+
+}
+.img{
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-family: Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    color: var(--red-color);
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.btn{
+    /* width: 10%; */
+
+    float: right;
+    margin-right: 10%;
+    margin-top: 2%;
+    /* border: 2px solid blue;
+    border-radius: 5px solid pink; */
+    
+}
+.btn > button{
+    height: 35px;
+    width: 75px;
+    /* border: 3px solid var(--text-color); */
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: var(--red-color);
+    color: var(--text-color);
+    
+}
+/* HOME SECTION  */
+.home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(19, 27, 48, 0.6), rgba(20, 27, 46, 0.9)), url(/images/netflix-1.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    
+}
+.home > h1{
+    padding-top: 20%;
+    font-weight: 900;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.home > h3{
+    font-size: 30px;
+    font-weight: 100;
+    padding-top: 15px;
+}
+.home > p{
+    padding-top: 15px;
+    font-weight: 50;
+    font-size: 25px;
+}
+.details{
+    margin-top: 15px;
+}
+.details1{
+    width: 30%;
+    height: 60px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    font-size: 18px;
+    background: transparent;
+    color: var(--text-color);
+    border: 1px solid gray;
+}
+.btn1{
+    width: 16%;
+    height: 60px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 30px;
+    color: var(--text-color);
+    background-color: var(--red-color);
+    border: none;
+    margin-left: 10px;
+    /* margin-top: 30px; */
+}
+button:hover{
+    background-color: rgb(153, 27, 27);
+    cursor: pointer;
+}
+
+/* TV SECTION  */
+.tv{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    border-top: 8px solid var(--gray-color);
+    border-bottom: 8px solid var(--gray-color);
+    
+}
+.tvwriteup{
+    width: 50%;
+    margin-top: 5%;
+    /* border: 2px solid red; */
+    padding-left: 100px;
+}
+.tvwriteup > h1{
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.tvwriteup > h2{
+    font-weight: 300;
+    font-size: 25px;
+    margin-top: 10px;
+    line-height: 35px;
+}
+
+.tvwatch{
+    width: 550px;
+    height: 370px;
+    /* border: 2px solid blue; */
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+.tvwatch > img{
+    width: 100%;
+    height: 100%;
+}
+.fitvideo{
+    width: 100%;
+    height: 54%;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 21%;
+    /* left: 1%; */
+}
+.fitvideo > video{
+    width: 100%;
+    height: 100%;
+}
+
+/* SECOND SECTION  */
+.tv1{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    /* border-top: 8px solid var(--gray-color); */
+    border-bottom: 8px solid var(--gray-color);
+    
+}
+.secondvideo{
+    width: 50%;
+    height: 200px;
+    border: 2px solid blue;
+}
+
+.secondwriteup{
+    margin-left: 5%;
+}
+.secondwriteup > h1{
+    width: 70%;
+    /* border: 2px solid red; */
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: 1px;
+    /* padding-top: 1px; */
+    line-height: 70px;
+}
+.secondwriteup > h3{
+    width: 70%;
+    /* border: 2px solid green; */
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 10px;
+    line-height: 35px;
+}
+
+.tvwatch2{
+    width: 50%;
+    height: 370px;
+    margin-left: 15%;
+    /* border: 2px solid blue; */
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+.tvwatch2 > img{
+    width: 100%;
+    height: 100%;
+}
+.rectangle{
+    width: 260px;
+    height: 100px;
+    border: 2px solid var(--gray-color);
+    background-color: var(--bg-color);
+    border-radius: 15px;
+    position: absolute;
+    bottom: 20px;
+    left: 18%;
+}
+.box{
+    width: 60px;
+    height: 70px;
+    /* border: 2px solid blue; */
+    margin-left: 10px;
+    margin-top: 7px;
+}
+.box > img{
+    width: 100%;
+    height: 100%;
+}
+.small{
+    font-size: 15px;
+    position: absolute;
+    top: 27px;
+    left: 30%;
+}
+.loading{
+    font-size: 13px;
+    bottom: 28%;
+    left: 30%;
+    position: absolute;
+    color: var(--blue-color);
+
+}
+.playbutton{
+    width: 40px;
+    height: 50px;
+    background-image: url(images/download-icon.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    /* border: 2px solid red; */
+    top: 23px;
+    right: 10px;
+}
+
+/* 3RD SECTION  */
+.left{
+    width: 100%;
+    height: 320px;
+    border-bottom: 8px solid var(--gray-color);
+}
+.leftText{
+    width: 30%;
+    height: 300px;
+    /* border: 2px solid blue; */
+    margin-top: 80px;
+    margin-left: 18%;
+    
+}
+.leftText > h1{
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: 1px;
+    line-height: 70px;
+}
+.leftText > p{
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 10px;
+    line-height: 35px;
+}
+
+/* 4RTH SECTION  */
+.cartoon{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    border-bottom: 8px solid var(--gray-color);
+}
+
+.thirdwriteup{
+    width: 60%;
+    height: 230px;
+    margin-left: 1%;
+    margin-top: -30px;
+    /* border: 2px solid pink; */
+}
+.thirdwriteup > h1{
+    width: 70%;
+    /* border: 2px solid red; */
+    font-weight: 700;
+    font-size: 50px;
+    /* letter-spacing: 1px; */
+    /* padding-top: 1px; */
+    line-height: 60px;
+}
+
+.thirdwriteup > h3{
+    width: 75%;
+    /* border: 2px solid green; */
+    font-weight: 400;
+    font-size: 23px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+.tvwatch3{
+    width: 45%;
+    height: 370px;
+    margin-left: 10%;
+    /* border: 2px solid blue; */
+    /* position: relative; */
+    text-align: center;
+    justify-content: center;
+}
+.tvwatch3 > img{
+    width: 100%;
+    height: 100%;
+}
+
+/* FREQUENTLY ASKED QUESTION SECTION  */
+.faq{
+    margin-top: 5%;
+    /* margin-bottom: 5%; */
+    border-bottom: 8px solid var(--gray-color);
+}
+.faq > h1{
+    font-weight: 800;
+    font-size: 50px;
+    text-transform: capitalize;
+    text-align: center;
+}
+/* ACCORDION  */
+#accordion{
+    margin: 25px auto;
+    width: 75%;
+}
+#accordion li{
+    list-style: none;
+    width: 100%;
+    /* height: 90px; */
+    margin-bottom: 10px;
+    background: var(--gray-color);
+    border-radius: 4px;
+    padding: 20px;
+}
+#accordion li label{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 23px;
+    cursor: pointer;
+    /* color: #c20000; */
+}
+#accordion li label span{
+    transform: rotate(90deg);
+    font-size: 22px;
+
+}
+#accordion label + input[type="radio"]{
+    display: none;
+}
+#accordion .content{
+    /* padding: 0 2px; */
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+#accordion label + input[type="radio"]:checked + .content{
+    max-height: 400px;
+}
+.content > p{
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+}
+label{
+    margin-bottom: 10px;
+}
+.down{
+    margin-top: 50px;
+    /* position: relative; */
+
+}
+.down > h3{
+    font-weight: 400;
+    font-size: 23px;
+    margin-top: 10px;
+    line-height: 30px;
+    text-align: center;
+}
+.last{
+    margin: 20px auto;
+    width: 40%;
+    height: 65px;
+    /* border: 2px solid red; */
+    position: relative;
+    margin-bottom: 50px;
+
+}
+.email{
+    position: absolute;
+    width: 64%;
+    height: 100%;
+
+
+}
+.btn2{
+    position: absolute;
+    width: 35%;
+    height: 100%;
+    left: 340px;
+}
+.btn2 > button{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: var(--red-color);
+    font-size: 25px;
+    color: var(--text-color);
+    font-weight: bold;
+
+}
+.email > input{
+    width: 100%;
+    height: 90%;
+    margin-top: 3px;
+    /* border-radius: 5px; */
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+    padding-left: 15px;
+    font-size: 18px;
+    background: transparent;
+    color: var(--text-color);
+    border: 1px solid gray;
+
+}
