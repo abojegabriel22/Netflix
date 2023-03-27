@@ -123,6 +123,56 @@ header{
     margin-left: 10px;
     /* margin-top: 30px; */
 }
+@media screen and (max-width: 1260px){
+    .btn1 {
+        width: 21%;
+    }
+    .home > h1 {
+        padding-top: 32%;
+    }
+}
+@media screen and (max-width: 949px){
+    .btn1 {
+        width: 27%;
+    }
+    .home > h1 {
+        padding-top: 37%;
+    }
+    .details1 {
+        width: 39%;
+    }
+    .details{
+        margin-top: 21px;
+    }
+}
+@media screen and (max-width: 741px){
+    .home > h1{
+        font-size: 29px;
+    }
+    .home > h3 {
+        font-size: 26px;
+    }
+    .home > p{
+        font-size: 19px;
+    }
+    .home > h1 {
+        padding-top: 43%;
+    }
+    .details {
+        margin-top: 34px;
+    }
+    .details1 {
+        width: 46%;
+    }
+    .btn1 {
+        width: 35%;
+    }
+    .btn{
+        margin-top: 5%;
+    }
+
+}
+
 button:hover{
     background-color: rgb(153, 27, 27);
     cursor: pointer;
@@ -562,3 +612,83 @@ select > option{
     margin-top: 20px;
     color: #c7cfb1;
 }
+@media screen and (max-width: 671px){
+    .imge{
+        margin-left: 5%;
+    }
+    .btn{
+        margin-right: 5%;
+    }
+    .home > h1 {
+        padding-top: 43%;
+        font-size: 36px;
+    }
+    .home > h3 {
+        font-size: 26px;
+    }
+    .home > p {
+        font-size: 21px;
+    }
+    .details {
+        margin-top: 34px;
+    }
+    .details1 {
+        width: 46%;
+    }
+    .btn1 {
+        width: 30%;
+    }
+    .tv {
+        width: 100%;
+        height: 604px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .tvwriteup {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .tvwriteup > h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+    .tvwriteup > h2 {
+        font-size: 20px;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .tvwatch {
+        width: 353px;
+        height: 265px;
+        text-align: center;
+        justify-content: center;
+    }
+    .fitvideo {
+        width: 100%;
+        height: 54%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
