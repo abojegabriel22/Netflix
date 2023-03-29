@@ -817,6 +817,118 @@ select > option{
 }
 
 
+@media screen and (max-width: 568px){
+    .home > h1{
+        padding-top: 39%;
+    }
+    .details1{
+        width: 75%;
+        padding-bottom: 20px;
+    }
+    .btn1{
+        margin-top: 20px;
+        font-size: 23px;
+    }
+    .rectangle {
+        width: 75%;
+        left: 13%;
+    }
+    .tv{
+        height: 490px;
+    }
+    .tvwriteup > h1{
+        font-size: 25px;
+    }
+    .tvwriteup > h2{
+        font-size: 15px;
+    }
+    .tvwatch{
+        margin-bottom: 15%;
+    }
+    
+    .tvwatch2{
+        width: 77%;
+    }
+    .secondwriteup{
+        margin-top: 5%;
+    }
+    .secondwriteup > h1 {
+        font-size: 25px;
+        line-height: 45px;
+    }
+    .secondwriteup > h3{
+        line-height: 28px;
+        font-size: 15px;
+    }
+    .leftText > h1{
+        font-size: 25px;
+    }
+    .leftText > p{
+        font-size: 15px;
+    }
+    .left{
+        height: 245px;
+    }
+    .last{
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 100px;
+    }
+    .email{
+        position: relative;
+        height: 100%;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .btn2{
+        width: 40%;
+        left: 0;
+        margin-top: 10px;
+        margin-left: 30%;
+    }
+    .cartoon{
+        height: 640px;
+    }
+
+    .thirdwriteup > h1{
+        font-size: 25px;
+    }
+    .thirdwriteup > h3 {
+        font-size: 15px;
+    }
+
+    .faq > h1{
+        font-size: 25px;
+    }
+    #accordion li label {
+        font-size: 18px;
+    }
+    .content > p{
+        font-size: 15px;
+    }
+    .btn2{
+        width: 35%;
+        margin-left: 33%;
+    }
+    .btn2 > button{
+        font-size: 20px;
+    }
+    .contact{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .first{
+        width: 40%;
+    }
+    .second{
+        width: 40%;
+    }
+    .third{
+        margin-left: 12%;
+        height: 270px;
+    }
+}
+
 
 
 
