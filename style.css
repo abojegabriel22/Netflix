@@ -103,8 +103,8 @@ header{
     width: 30%;
     height: 60px;
     border-radius: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 15px;
     padding-left: 15px;
     font-size: 18px;
     background: transparent;
@@ -633,10 +633,11 @@ select > option{
         margin-top: 34px;
     }
     .details1 {
-        width: 46%;
+        width: 50%;
+        padding-top: 20px;
     }
     .btn1 {
-        width: 30%;
+        width: 37%;
     }
     .tv {
         width: 100%;
@@ -806,6 +807,12 @@ select > option{
         height: 100%;
         top: 0;
         left: 0;
+    }
+    .imge{
+        margin-top: 4%;
+    }
+    .img{
+        font-size: 35px;
     }
 }
 
