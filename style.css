@@ -925,7 +925,126 @@ select > option{
     }
     .third{
         margin-left: 12%;
-        height: 270px;
+        margin-top: -10%;
+        height: 240px;
+        width: 40%;
+    }
+}
+@media screen and (max-width: 432px){
+    .home > h1{
+        font-size: 25px;
+        padding-top: 65%;
+    }
+    .home > h3 {
+        font-size: 18px;
+    }
+    .home > p {
+        font-size: 15px;
+    }
+    .imge {
+        margin-top: 7%;
+    }
+    .img {
+        font-size: 30px;
+    }
+    .btn {
+        margin-top: 9%;
+    }
+    .btn > button{
+        font-size: 14px;
+        width: 72px;
+        height: 32px;
+    }
+    .btn1{
+        font-size: 18px;
+        width: 40%;
+    }
+    .btn2 > button {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 336px){
+    .img {
+        font-size: 25px;
+    }
+    .btn > button {
+        width: 62px;
+        height: 30px;
+    }
+    .home > h1 {
+        padding-top: 83%;
+    }
+    .tvwatch {
+        width: 288px;
+
+    }
+   
+    .fitvideo{
+        width: 71%;
+        height: 53%;
+        top: 22%;
+        left: 14%;
+        /* border: 2px solid pink; */
+    }
+    .tvwriteup{
+        margin-top: 8%;
+    }
+    .tvwatch2 {
+        width: 100%;
+        height: 340px;
+    }
+    .tvwatch3{
+        width: 96%;
+        margin-left: 0%;
+        height: 340px;
+        margin-bottom: -10px;
+        margin-top: 0%;
+        /* border: 2px solid red; */
+    }
+    .email{
+        width: 90%;
+        height: 100%;
+    }
+    .btn2{
+        height: 90%;
+        width: 50%;
+        margin-left: 26%;
+    }
+    .details1 {
+        width: 90%;
+    }
+    .btn1{
+        width: 50%;
+        height: 57px;
+    }
+}
+@media screen and (max-width: 294px){
+    .tvwatch{
+        height: 224px;
+        width: 260px;
+    }
+    .tvwatch3 {
+        width: 91%;
+        height: 300px;
+    }
+    .thirdwriteup{
+        margin-top: -75px;
+    }
+    .thirdwriteup > h1{
+        line-height: 50px;
+    }
+    .first {
+        width: 50%;
+        height: 345px;
+    }
+    .second {
+        width: 50%;
+        height: 231px;
+        margin-left: 12%;
+    }
+    .third{
+        width: 65%;
+        height: 220px;
     }
 }
 
