@@ -787,6 +787,20 @@ select > option{
     .content > p{
         font-size: 18px;
     }
+
+    .down > h3{
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 18px;
+    }
+    .last{
+        width: 75%;
+        margin-left: 65px;
+    }
+    .dropdown{
+        margin-top: 20%;
+    }
 }
 
 
