@@ -960,12 +960,12 @@ select > option{
 }
 @media screen and (max-width: 432px){
     .fast{
-        font-size: 8px;
+        font-size: 12px;
         line-height: 1px;
         /* border: 2px solid red; */
     }
     .fas{
-        font-size: 8px;
+        font-size: 12px;
     }
     .home > h1{
         font-size: 25px;
