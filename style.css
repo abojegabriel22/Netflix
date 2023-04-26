@@ -57,6 +57,11 @@ header{
 
 .fas{
     font-size: 15px;
+    animation: ball 5s linear infinite;
+}
+@keyframes ball{
+    0%{transform: rotate(-360deg);}
+    100%{transform: rotate(360deg);}
 }
 .fast{
     color: rgb(255, 255, 0);
