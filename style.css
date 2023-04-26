@@ -846,6 +846,14 @@ select > option{
 
 
 @media screen and (max-width: 568px){
+    .fast{
+        font-size: 12px;
+        line-height: 1px;
+        /* border: 2px solid red; */
+    }
+    .fas{
+        font-size: 12px;
+    }
     .home > h1{
         padding-top: 39%;
     }
@@ -959,14 +967,7 @@ select > option{
     }
 }
 @media screen and (max-width: 432px){
-    .fast{
-        font-size: 12px;
-        line-height: 1px;
-        /* border: 2px solid red; */
-    }
-    .fas{
-        font-size: 12px;
-    }
+    
     .home > h1{
         font-size: 25px;
         padding-top: 65%;
