@@ -115,7 +115,7 @@ header{
 /* COUPON CODE */
 #coupon{
     width: 50%;
-    height: 45%;
+    height: 52%;
     background-color: var(--text-color);
     z-index: 1000;
     position: absolute;
@@ -233,6 +233,15 @@ header{
     font-size: 20px;
     background-color: var(--blue-color);
     color: var(--text-color);
+    
+}
+input[value="Accept offer"]{
+    animation: increase 5s infinite;
+    } 
+@keyframes increase{
+    0%{scale: 1;}
+    50%{scale: .9;}
+    100%{scale: 1;}
 }
 .couponAccept:hover{
     color: rgb(99, 240, 99);
@@ -311,6 +320,9 @@ header{
     .couponHeading {
         margin-top: 1%;
     }
+    #coupon {
+        height: 67%;
+    }
 }
 @media screen and (max-width: 949px){
     .fast{
@@ -346,6 +358,14 @@ header{
         font-size: 22px;
     }
 }
+@media screen and (max-width: 770px){
+    #coupon {
+        width: 65%;
+        height: 69%;
+        left: 19%;
+    }
+
+}
 @media screen and (max-width: 741px){
     .home > h1{
         font-size: 29px;
@@ -377,17 +397,16 @@ header{
         left: 15%;
     }
     .img-div {
-        width: 45%;
+        width: 34%;
         height: 34%;
-        /* border: 2px solid red; */
-        top: 66%;
+        top: -19%;
     }
     @keyframes img{
-        0%{left: 5%;}
-        40%{left: 40%;}
-        60%{left: 50%;}
-        80%{left: 40%;}
-        100%{left: 5%;}
+        0%{left: 40%;}
+        40%{left: 32%;}
+        60%{left: 40%;}
+        80%{left: 55%;}
+        100%{left: 40%;}
     }
 
 }
@@ -1228,6 +1247,7 @@ select > option{
      /* COUPON BUTTON BEGINS HERE  */
     #coupon {
         width: 90%;
+        height: 71%;
         left: 5%;
     }
     .close {
@@ -1248,7 +1268,15 @@ select > option{
     }
     .img-div {
         height: 27%;
-        top: 74%;
+        width: 25%;
+        top: -16%;
+    }
+    @keyframes img{
+        0%{left: 42%;}
+        40%{left: 50%;}
+        60%{left: 60%;}
+        80%{left: 50%;}
+        100%{left: 42%;}
     }
 }
 @media screen and (max-width: 336px){
@@ -1306,6 +1334,15 @@ select > option{
         height: 57px;
     }
 }
+@media screen and (max-width: 321px){
+    .couponHeading {
+        margin-top: -9%;
+    }
+    .img-div {
+        top: -18%;
+    }
+
+}
 @media screen and (max-width: 294px){
     .tvwatch{
         height: 224px;
@@ -1337,6 +1374,13 @@ select > option{
     #coupon {
         width: 100%;
         left: 0%;
+    }
+    .couponHeading {
+        margin-top: -3%;
+        font-size: 16px;
+    }
+    .couponH2 {
+        font-size: 16px;
     }
 }
 
