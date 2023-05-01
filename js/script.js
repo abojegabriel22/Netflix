@@ -2,6 +2,10 @@
 function lightMode(){
     let myLight = document.body
     myLight.classList.toggle("myLight")
+    let myColor = document.getElementsByClassName("myColor1")[0]
+    let btn2A = document.getElementsByClassName("btn2A")[0]
+    myColor.classList.toggle("myColor")
+    btn2A.classList.toggle("btn2B")
 
 }
 

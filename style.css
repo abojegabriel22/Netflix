@@ -137,23 +137,18 @@ header{
 @keyframes img{
     0%{
         left: 40%;
-
     }
     40%{
         left: 23%;
-       
     }
     60%{
         left: 40%;
-        
     }
     80%{
         left: 70%;
-    
     }
     100%{
-        left: 40%;
-        
+        left: 40%; 
     }
 }
 .img-div > img{
@@ -170,7 +165,7 @@ header{
     margin-left: 5%;
     margin-top: -1%;
     color: var(--blue-color);
-    font-size: 23px;
+    font-size: 25px;
 }
 .couponParagraph{
     background-color: var(--blue-color);
@@ -183,7 +178,7 @@ header{
 }
 .couponH2{
     color: var(--blue-color);
-    font-size: 23px;
+    font-size: 25px;
     margin-left: 5%;
     margin-top: 1%;
     margin-right: 4%;
@@ -231,8 +226,9 @@ header{
     width: 100%;
     height: 17%;
     /* margin-top: 1px; */
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    /* border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px; */
+    border-radius: 15px;
     border-color: var(--text-color);
     font-size: 20px;
     background-color: var(--blue-color);
@@ -240,6 +236,8 @@ header{
 }
 .couponAccept:hover{
     color: rgb(99, 240, 99);
+    background-color: greenyellow;
+    cursor: pointer;
 }
 
 
@@ -294,6 +292,25 @@ header{
     .home > h1 {
         padding-top: 32%;
     }
+    .couponHeading {
+        margin-bottom: 2%;
+    }
+    .couponParagraph {
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    .couponH2 {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+}
+@media screen and (max-width: 1098px){
+    .couponNetflix {
+        top: 2px;
+    }
+    .couponHeading {
+        margin-top: 1%;
+    }
 }
 @media screen and (max-width: 949px){
     .fast{
@@ -310,6 +327,23 @@ header{
     }
     .details{
         margin-top: 21px;
+    }
+    .close {
+        margin-left: 87%;
+    }
+    @keyframes img{
+        0%{left: 40%;}
+        40%{left: 35%;}
+        60%{left: 40%;}
+        80%{left: 60%;}
+        100%{left: 40%;}
+    }
+    .couponHeading {
+        margin-top: 0%;
+        font-size: 22px;
+    }
+    .couponH2 {
+        font-size: 22px;
     }
 }
 @media screen and (max-width: 741px){
@@ -336,6 +370,24 @@ header{
     }
     .btn{
         margin-top: 5%;
+    }
+    #coupon {
+        width: 70%;
+        height: 65%;
+        left: 15%;
+    }
+    .img-div {
+        width: 45%;
+        height: 34%;
+        /* border: 2px solid red; */
+        top: 66%;
+    }
+    @keyframes img{
+        0%{left: 5%;}
+        40%{left: 40%;}
+        60%{left: 50%;}
+        80%{left: 40%;}
+        100%{left: 5%;}
     }
 
 }
@@ -674,9 +726,15 @@ label{
     border-radius: 7px;
     background-color: var(--red-color);
     font-size: 25px;
-    color: var(--text-color);
+
     font-weight: bold;
 
+}
+.btn2A{
+    color: var(--text-color);
+}
+.btn2B{
+    color: var(--bg-color);
 }
 .btn2 > button:hover{
     background-color: rgb(153, 27, 27);
@@ -692,9 +750,15 @@ label{
     padding-left: 15px;
     font-size: 18px;
     background: transparent;
-    color: var(--text-color);
+   
     border: 1px solid gray;
 
+}
+.myColor1{
+    color: var(--text-color);
+}
+.myColor{
+    color: var(--bg-color);
 }
 
 /* FOOTER SECTION  */
@@ -1106,6 +1170,22 @@ select > option{
         height: 240px;
         width: 40%;
     }
+    #coupon {
+        width: 80%;
+        left: 10%;
+    }
+    .img-div {
+        width: 55%;
+        height: 30%;
+        top: 71%;
+    }
+    @keyframes img{
+        0%{left: 5%;}
+        40%{left: 35%;}
+        60%{left: 43%;}
+        80%{left: 40%;}
+        100%{left: 5%;}
+    }
 }
 @media screen and (max-width: 432px){
     
@@ -1140,6 +1220,35 @@ select > option{
     }
     .btn2 > button {
         font-size: 18px;
+    }
+    #coupon {
+        width: 86%;
+        left: 7%;
+    } 
+     /* COUPON BUTTON BEGINS HERE  */
+    #coupon {
+        width: 90%;
+        left: 5%;
+    }
+    .close {
+        margin-left: 83%;
+    }
+    .couponHeading {
+        font-size: 18px;
+        margin-bottom: 14px;
+    }
+    .couponParagraph {
+        padding-top: 6%;
+        padding-bottom: 6%;
+    }
+    .couponH2 {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: 18px;
+    }
+    .img-div {
+        height: 27%;
+        top: 74%;
     }
 }
 @media screen and (max-width: 336px){
@@ -1224,6 +1333,10 @@ select > option{
     .third{
         width: 65%;
         height: 220px;
+    }
+    #coupon {
+        width: 100%;
+        left: 0%;
     }
 }
 

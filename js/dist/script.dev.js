@@ -3,6 +3,10 @@
 function lightMode() {
   var myLight = document.body;
   myLight.classList.toggle("myLight");
+  var myColor = document.getElementsByClassName("myColor1")[0];
+  var btn2A = document.getElementsByClassName("btn2A")[0];
+  myColor.classList.toggle("myColor");
+  btn2A.classList.toggle("btn2B");
 } // COUPON LOAD FUNCTION 
 
 
