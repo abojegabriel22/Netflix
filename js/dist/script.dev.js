@@ -45,4 +45,37 @@ function couponLink() {
   document.getElementById("tv1").style.opacity = "1";
   document.getElementById("tv").style.opacity = "1";
   document.getElementById("home").style.opacity = "1";
+} // GEOLOCATION
+
+
+var x = document.getElementById("out");
+var y = document.getElementById("weather");
+
+function geolocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    x.innerText = "Geolocation not supported here";
+  }
+}
+
+function showPosition(data) {
+  console.log(data);
+  var lat = data.coords.latitude;
+  var lon = data.coords.longitude; // x.innerText = `latitude is ${lat} and longitude is ${lon}`
+
+  var url = "https://api.openweathermap.org/data/2.5/forecast/daily?lat=".concat(lat, "&lon=").concat(lon, "&mode=json&units=metric&cnt=5&appid=fbf712a5a83d7305c3cda4ca8fe7ef29"); // API CALLING 
+
+  fetch(url, {
+    method: "GET"
+  }) // return promise 
+  .then(function (res) {
+    return res.json();
+  }) // RESOLVE THE PROMISE 
+  .then(function (data) {
+    console.log(data);
+    var cityName = data.city.name;
+    var weather = data.list[0].temp.day + " °C";
+    y.innerText = "".concat(weather, " ").concat(cityName);
+  });
 }

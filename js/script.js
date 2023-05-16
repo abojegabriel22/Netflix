@@ -45,3 +45,36 @@ function couponLink(){
     document.getElementById("tv").style.opacity = "1"
     document.getElementById("home").style.opacity = "1"
 }
+
+// GEOLOCATION
+let x = document.getElementById("out")
+let y = document.getElementById("weather")
+
+function geolocation(){
+    if(navigator.geolocation){
+        navigator.geolocation.getCurrentPosition(showPosition)
+    }else{
+        x.innerText = "Geolocation not supported here"
+    }
+}
+
+function showPosition(data){
+    console.log(data)
+    let lat = data.coords.latitude
+    let lon = data.coords.longitude
+    // x.innerText = `latitude is ${lat} and longitude is ${lon}`
+    const url = `https://api.openweathermap.org/data/2.5/forecast/daily?lat=${lat}&lon=${lon}&mode=json&units=metric&cnt=5&appid=fbf712a5a83d7305c3cda4ca8fe7ef29`
+
+    // API CALLING 
+    fetch(url,{method: "GET"})
+    // return promise 
+    .then((res) => res.json())
+    // RESOLVE THE PROMISE 
+    .then((data) => {
+        console.log(data)
+        let cityName = data.city.name
+        let weather = data.list[0].temp.day+" °C"
+        y.innerText = `${weather} ${cityName}`
+    })
+
+}
