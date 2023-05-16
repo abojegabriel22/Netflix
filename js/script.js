@@ -73,7 +73,7 @@ function showPosition(data){
     .then((data) => {
         console.log(data)
         let cityName = data.city.name
-        let weather = data.list[0].temp.day+" °C"
+        let weather = Math.round(data.list[0].temp.day)+"°C"
         y.innerText = `${weather} ${cityName}`
     })
 

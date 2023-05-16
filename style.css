@@ -251,10 +251,10 @@ input[value="Accept offer"]{
 
 .weath{
     position: absolute;
-    top: 35%;
+    top: 47%;
     left: 2%;
     /* border: 2px solid red; */
-    width: 8%;
+    width: 6%;
 }
 .home > h1{
     padding-top: 20%;
@@ -374,7 +374,7 @@ input[value="Accept offer"]{
         top: 35%;
         left: 1%;
         /* border: 2px solid red; */
-        width: 9%;
+        width: 7%;
         font-size: 12px;
     }
 
@@ -1292,10 +1292,10 @@ select > option{
         100%{left: 42%;}
     }
     .weath{
-        top: 40%;
-        left: 59%;
+        top: 38%;
+        left: 64%;
         /* border: 2px solid red; */
-        width: 18%;
+        width: 13%;
     }
 }
 @media screen and (max-width: 336px){
@@ -1362,10 +1362,10 @@ select > option{
     }
     .weath{
         top: 36%;
-        left: 54%;
+        left: 60%;
         /* border: 2px solid red; */
-        width: 21%;
-        font-size: 10px;
+        width: 16%;
+        font-size: 11px;
     }
     .imge {
         width: 40%;
@@ -1410,6 +1410,9 @@ select > option{
     }
     .couponH2 {
         font-size: 16px;
+    }
+    .weath{
+        font-size: 11px;
     }
     
 }

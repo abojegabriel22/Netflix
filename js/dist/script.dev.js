@@ -75,7 +75,7 @@ function showPosition(data) {
   .then(function (data) {
     console.log(data);
     var cityName = data.city.name;
-    var weather = data.list[0].temp.day + " °C";
+    var weather = Math.round(data.list[0].temp.day) + "°C";
     y.innerText = "".concat(weather, " ").concat(cityName);
   });
 }
